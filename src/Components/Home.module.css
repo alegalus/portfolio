@@ -124,6 +124,20 @@ body {
       margin-top: 14em;
     }
   }
+  .contenedorBoton {
+    position: absolute;
+    bottom: 40px;
+    left: 40%;
+  }
+
+  .boton {
+    background-color: black;
+    color: white;
+    font-family: inherit;
+    font-weight: bold;
+    border: none;
+  }
+  
 }
 @media screen and (min-width: 400px) and (max-width: 575px) {
   .lottieFile {
@@ -158,6 +172,19 @@ body {
       margin-top: 16em;
     }
   }
+  .contenedorBoton {
+    position: absolute;
+    bottom: 40px;
+    left: 40%;
+  }
+
+  .boton {
+    background-color: black;
+    color: white;
+    font-family: inherit;
+    font-weight: bold;
+    border: none;
+  }
 }
 @media screen and (min-width: 700px) and (max-width: 840px) {
   .lottieFile {
@@ -188,6 +215,20 @@ body {
       margin-top: 25em;
     }
   }
+  .contenedorBoton {
+    position: absolute;
+    bottom: 40px;
+    left: 40%;
+  }
+
+  .boton {
+    background-color: black;
+    color: white;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 2em;
+    border: none;
+  }
 }
 @media screen and (min-width: 900px) and (max-width: 1030px) {
   .lottieFile {
@@ -217,6 +258,20 @@ body {
     100% {
       margin-top: 25em;
     }
+  }
+  .contenedorBoton {
+    position: absolute;
+    bottom: 40px;
+    left: 40%;
+  }
+
+  .boton {
+    background-color: black;
+    color: white;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 2em;
+    border: none;
   }
 }
 
