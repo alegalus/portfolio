@@ -126,14 +126,15 @@ body {
   }
   .contenedorBoton {
     position: absolute;
-    bottom: 40px;
-    left: 40%;
+    bottom: 80px;
+    left: 30%;
   }
 
   .boton {
     background-color: black;
     color: white;
     font-family: inherit;
+    font-size: 1.5em;
     font-weight: bold;
     border: none;
   }
@@ -174,14 +175,15 @@ body {
   }
   .contenedorBoton {
     position: absolute;
-    bottom: 40px;
-    left: 40%;
+    bottom: 80px;
+    left: 30%;
   }
 
   .boton {
     background-color: black;
     color: white;
     font-family: inherit;
+    font-size: 1.5em;
     font-weight: bold;
     border: none;
   }
