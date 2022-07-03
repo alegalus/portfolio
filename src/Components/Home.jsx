@@ -119,7 +119,16 @@ function Home() {
       </>
       {screen < 1200 && (
         <div className={s.contenedorBoton}>
-          <button onClick={() => {setShow(!show)}} className={s.boton}>Toque aqui</button>
+          {!show && (
+            <button
+              onClick={() => {
+                setShow(!show);
+              }}
+              className={s.boton}
+            >
+              Toque aqui
+            </button>
+          )}
         </div>
       )}
     </div>
