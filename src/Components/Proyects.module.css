@@ -1,0 +1,158 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  animation: subir 1s;
+}
+
+@keyframes subir {
+  0% {
+    margin-top: 6em;
+  }
+  100% {
+    margin-top: 0em;
+  }
+}
+
+.volver {
+  color: white;
+  font-family: inherit;
+  font-weight: bold;
+  letter-spacing: -2px;
+  font-size: 2em;
+  text-align: right;
+  position: fixed;
+  top: 40px;
+  right: 150px;
+}
+.proyects {
+  margin-left: 16em;
+  margin-top: 10em;
+  padding-bottom: 4em;
+}
+
+.proy {
+  width: 60%;
+}
+
+.proyecTittle {
+  color: white;
+  font-family: inherit;
+  letter-spacing: -2px;
+  font-size: 5em;
+  text-align: left;
+}
+
+.enlaces {
+  margin-top: -3em;
+  text-align: left;
+}
+.enlaces a {
+  color: #ea0f1e;
+  font-family: inherit;
+  font-weight: bold;
+  font-size: 1.5em;
+  text-align: justify;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 300px) and (max-width: 399px) {
+  .volver {
+    position: absolute;
+    top: 0;
+    right: 20px;
+  }
+  .proyects {
+    margin-left: 2em;
+  }
+
+  .proy {
+    width: 90%;
+  }
+
+  .proyecTittle {
+    font-size: 2.1em;
+  }
+
+  .enlaces {
+    margin-top: -1.5em;
+  }
+  .enlaces a {
+    font-size: 1.2em;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 450px) {
+  .volver {
+    position: absolute;
+    top: 0;
+    right: 20px;
+  }
+  .proyects {
+    margin-left: 2em;
+  }
+
+  .proy {
+    width: 90%;
+  }
+
+  .proyecTittle {
+    font-size: 2.1em;
+  }
+
+  .enlaces {
+    margin-top: -1.5em;
+  }
+  .enlaces a {
+    font-size: 1.2em;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 840px) {
+  .volver {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+  }
+  .proyects {
+    margin-left: 2em;
+  }
+
+  .proy {
+    width: 90%;
+  }
+
+  .proyecTittle {
+    font-size: 4em;
+  }
+
+  .enlaces {
+    margin-top: -2em;
+  }
+  .enlaces a {
+    font-size: 2em;
+  }
+}
+@media screen and (min-width: 900px) and (max-width: 1030px) {
+  .volver {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+    font-size: 3em;
+  }
+  .proyects {
+    margin-left: 4em;
+  }
+
+  .proy {
+    width: 90%;
+  }
+
+  .proyecTittle {
+    font-size: 5em;
+  }
+
+  .enlaces {
+    margin-top: -3em;
+  }
+  .enlaces a {
+    font-size: 3em;
+  }
+}
