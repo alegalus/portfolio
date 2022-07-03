@@ -127,7 +127,8 @@ body {
   .contenedorBoton {
     position: absolute;
     bottom: 80px;
-    left: 30%;
+    width: 100%;
+    margin: auto;
   }
 
   .boton {
@@ -138,7 +139,6 @@ body {
     font-weight: bold;
     border: none;
   }
-  
 }
 @media screen and (min-width: 400px) and (max-width: 575px) {
   .lottieFile {
@@ -176,7 +176,8 @@ body {
   .contenedorBoton {
     position: absolute;
     bottom: 80px;
-    left: 30%;
+    width: 100%;
+    margin: auto;
   }
 
   .boton {
@@ -220,7 +221,8 @@ body {
   .contenedorBoton {
     position: absolute;
     bottom: 40px;
-    left: 40%;
+    width: 100%;
+    margin: auto;
   }
 
   .boton {
@@ -264,7 +266,8 @@ body {
   .contenedorBoton {
     position: absolute;
     bottom: 40px;
-    left: 40%;
+    width: 100%;
+    margin: auto;
   }
 
   .boton {
