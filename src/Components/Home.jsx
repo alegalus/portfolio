@@ -45,7 +45,7 @@ function Home() {
               {!about ? (
                 <h1 onMouseEnter={handleAboutIn}>Hola.</h1>
               ) : (
-                <Link to={"/about"} className={s.decoration}>
+                <Link to={"/About"} className={s.decoration}>
                   <h1
                     className={s.segundoTitWhite}
                     onMouseLeave={handleAboutOut}
