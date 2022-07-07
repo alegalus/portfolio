@@ -81,12 +81,6 @@ li {
   text-decoration: none;
 }
 
-.curriculum:hover {
-  transition: all 0.5s;
-  margin-left: 5em;
-  transform: scale(1.06, 1.06);
-}
-
 .iconoTec {
   color: #ea0f1e;
   margin-left: -2em;
