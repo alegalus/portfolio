@@ -76,27 +76,8 @@ body {
   transition: all 1s;
   margin-left: 0.2em;
 }
-.lottieFile {
-  width: 25%;
-  position: absolute;
-  right: 150px;
-  top: 80px;
-}
-
-/* .titulo:hover::after{
-    content: "Sobre mi";
-}
-
-.titulo:hover{
-    display: none;
-} */
 
 @media screen and (min-width: 300px) and (max-width: 399px) {
-  .lottieFile {
-    width: 65%;
-    right: 0px;
-    top: 40px;
-  }
   #white {
     margin-top: 14em;
     margin-left: 1.5em;
@@ -141,11 +122,6 @@ body {
   }
 }
 @media screen and (min-width: 400px) and (max-width: 575px) {
-  .lottieFile {
-    width: 65%;
-    right: 0px;
-    top: 40px;
-  }
   #white {
     margin-top: 16em;
     margin-left: 2em;
@@ -190,11 +166,6 @@ body {
   }
 }
 @media screen and (min-width: 700px) and (max-width: 840px) {
-  .lottieFile {
-    width: 60%;
-    right: 0px;
-    top: 40px;
-  }
   #white {
     margin-top: 25em;
     margin-left: 4em;
@@ -235,11 +206,6 @@ body {
   }
 }
 @media screen and (min-width: 900px) and (max-width: 1030px) {
-  .lottieFile {
-    width: 60%;
-    right: 0px;
-    top: 40px;
-  }
   #white {
     margin-top: 25em;
     margin-left: 4em;
@@ -281,11 +247,6 @@ body {
 }
 
 @media screen and (min-width: 1920px) and (max-width: 1980px) {
-  .lottieFile {
-    width: 28%;
-    right: 150px;
-    top: 120px;
-  }
   @keyframes mover {
     0% {
       margin-top: 16em;

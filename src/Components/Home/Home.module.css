@@ -1,0 +1,57 @@
+/*-- CSS RESET--*/
+
+/* Set core body defaults */
+body {
+  background-color: black;
+}
+
+/*--CSS RESET END--*/
+
+.main {
+  padding: 0;
+  margin: 0;
+}
+
+.lottieFile {
+  width: 25%;
+  position: absolute;
+  right: 150px;
+  top: 80px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 399px) {
+  .lottieFile {
+    width: 65%;
+    right: 0px;
+    top: 40px;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 575px) {
+  .lottieFile {
+    width: 65%;
+    right: 0px;
+    top: 40px;
+  }
+}
+@media screen and (min-width: 700px) and (max-width: 840px) {
+  .lottieFile {
+    width: 60%;
+    right: 0px;
+    top: 40px;
+  }
+}
+@media screen and (min-width: 900px) and (max-width: 1030px) {
+  .lottieFile {
+    width: 60%;
+    right: 0px;
+    top: 40px;
+  }
+}
+
+@media screen and (min-width: 1920px) and (max-width: 1980px) {
+  .lottieFile {
+    width: 28%;
+    right: 150px;
+    top: 120px;
+  }
+}
