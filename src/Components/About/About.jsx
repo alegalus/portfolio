@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import s from "./About.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
-import cv  from "../assets/pdf/AlejandroGalus.pdf";
+import cv from "../../assets/pdf/AlejandroGalus.pdf";
 
 function About() {
   return (
