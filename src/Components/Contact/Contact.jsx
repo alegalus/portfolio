@@ -30,20 +30,16 @@ function Contact() {
           </p>
           <p>
             Si te queres contactar conmigo, podes encontrarme en Linkedin,
-            Github, WhatsApp o enviarme un email. Estoy buscando mi primer
+            Github, WhatsApp o enviarme un email desde el formulario de contacto. Estoy buscando mi primer
             empleo como desarrollador, así que si crees que mi perfil puede
             ayudarte, no dudes en avisarme.
           </p>
 
           <ul className={s.contacto}>
             <li>
-              alejandrogalus@yahoo.com.ar ||{" "}
-              <a
-                className={s.enlaces}
-                href="mailto:alejandrogalus@yahoo.com.ar"
-              >
-                Enviame un mail!
-              </a>
+              <Link to="/Contact/Form" id={s.enlaces} className={s.decoration}>
+                Formulario de contacto
+              </Link>
             </li>
             <li>
               <a

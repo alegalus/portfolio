@@ -6,10 +6,11 @@ import HomeWeb from "../Home/Web/HomeWeb";
 import HomeMobile from "./Mobile/HomeMobile";
 
 function Home() {
-  const [screen, setScreen] = useState();
+  const [screen, setScreen] = useState(window.innerWidth);
 
   useEffect(() => {
-    setScreen(window.innerWidth);
+    const handleResize = () => setScreen(window.innerWidth);
+    window.addEventListener('resize', handleResize)
   }, [screen]);
 
   return (

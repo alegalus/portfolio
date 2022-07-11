@@ -23,11 +23,11 @@
   text-decoration: none;
 }
 
-.enlaces {
+#enlaces {
   color: #ea0f1e;
   font-family: inherit;
   font-weight: bold;
-  font-size: 1em;
+  font-size: 1.5em;
   text-align: justify;
   text-decoration: none;
 }
