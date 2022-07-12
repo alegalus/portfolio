@@ -6,6 +6,8 @@ function HomeWeb() {
   const [about, setAbout] = useState(false);
   const [proyects, setProyects] = useState(false);
   const [contact, setContact] = useState(false);
+  //creo los estados de cada menu para que cada ves que paso el mous por encima cambie
+  //con la opcion de onmouseenter y onmouseleave
 
   let handleAboutIn = () => {
     setAbout(!about);

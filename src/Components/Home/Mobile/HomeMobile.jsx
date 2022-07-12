@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import s from "./HomeMobile.module.css";
 
 function HomeMobile() {
+  //utilizo un estado para mostrar de entrada la bienvenida y despues el menu de acceso
   const [show, setShow] = useState(false);
 
   return (

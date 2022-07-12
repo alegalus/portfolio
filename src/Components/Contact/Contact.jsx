@@ -9,6 +9,8 @@ import {
 } from "@fortawesome/free-brands-svg-icons";
 
 function Contact() {
+    // utilice fontawesome primero instalando la libreria completa, despues el icono que quiero de acuerdo a la categoria
+    //en este caso usamos la de brands por que necesitaba iconos de linkedin github, etc.
   return (
     <div className={s.main}>
       <Link to={"/"} className={s.decoration}>
@@ -61,6 +63,7 @@ function Contact() {
               </a>
             </li>
             <li>
+              {/* para whathsapp se agrega el telefono dentro del href */}
               <a
                 href="https://api.whatsapp.com/send?phone=5491123151145"
                 target="_blank"
