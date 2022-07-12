@@ -10,7 +10,7 @@ const ModalBack = styled.div`
   position: fixed;
   top: 0px;
   left: 0px;
-  background: rgba(0, 0, 0, 0.95);
+  background: rgba(0, 0, 0, 0.92);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,7 +20,8 @@ const ModalContainer = styled.div`
   width: 300px;
   height: 200px;
   padding: 20px;
-  background: #ea0f1e;
+  background: black;
+  border: 1px solid white;
   border-radius: 10px;
   box-shadow: 0px 7px 29px 0px rgba(100, 100, 111, 0.2);
   text-align: center;
