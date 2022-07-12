@@ -11,6 +11,8 @@ Para este proyecto utilice React y CSS Module y styled-components para los estil
 
 :mailbox: Conectamos la pagina con los servicios de EmailJs para poder recibir mails desde el formulario de la pagina y poder enviar respuestas automaticas a los usuarios.
 
+Link deploy: https://ale-galus.vercel.app/
+
 
 ### Vista Version Mobile
 
