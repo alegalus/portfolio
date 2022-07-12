@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import s from "./About.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
-{/* importo el arhcivo del cv en el href */}
 import cv from "../../assets/pdf/AlejandroGalus.pdf";
+{/* importo el arhcivo del cv en el href */}
 
 function About() {
   // utilice fontawesome primero instalando la libreria completa, despues el icono que quiero de acuerdo a la categoria
