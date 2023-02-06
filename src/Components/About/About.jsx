@@ -3,8 +3,10 @@ import { Link } from "react-router-dom";
 import s from "./About.module.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCode } from "@fortawesome/free-solid-svg-icons";
-import cv from "../../assets/pdf/AlejandroGalus.pdf";
-{/* importo el arhcivo del cv en el href */}
+import cv from "../../assets/pdf/CVAlejandroGalus.pdf";
+{
+  /* importo el arhcivo del cv en el href */
+}
 
 function About() {
   // utilice fontawesome primero instalando la libreria completa, despues el icono que quiero de acuerdo a la categoria
@@ -35,7 +37,10 @@ function About() {
             autogestionado me preparó para luego poder dar un paso más y
             comenzar el bootcamp de Henry, en donde pude pasar por + 800hs de
             experiencia en programacion, tanto academica como en proyectos
-            individuales y grupales.{" "}
+            individuales y grupales. <br />A partir de septiembre 2022 pude
+            comenzar mi camino dentro de la industria de la tecnologia. Se
+            vienen nuevos desafios que me van a permitir avanzar en esta
+            reconversion de carrera que tanto buscaba.
           </p>
 
           <h5>
@@ -60,6 +65,13 @@ function About() {
               - PostgresSQL
             </li>
             <li>
+              <FontAwesomeIcon className={s.iconoTec} icon={faCode} /> Microsoft
+              SQL Server
+            </li>
+            <li>
+              <FontAwesomeIcon className={s.iconoTec} icon={faCode} /> Genexus
+            </li>
+            <li>
               <FontAwesomeIcon className={s.iconoTec} icon={faCode} /> React
               Native{" "}
             </li>
@@ -69,6 +81,10 @@ function About() {
             <li>
               <FontAwesomeIcon className={s.iconoTec} icon={faCode} /> Git -
               Github
+            </li>
+            <li>
+              <FontAwesomeIcon className={s.iconoTec} icon={faCode} />{" "}
+              Metodologías ágiles - Azure DevOps
             </li>
           </ul>
           <p>

@@ -10,18 +10,22 @@ function Proyects() {
       </Link>
       <div className={s.proyects}>
         <div className={s.proy}>
-          <h2 className={s.proyecTittle}>Infusion Store - Web</h2>
+          <h2 className={s.proyecTittle}>Infusion Store</h2>
           <div className={s.enlaces}>
             <a href="https://github.com/alegalus/eCommerce_InfusionStore" target="_blank" rel="noopener noreferrer">
               GitHub ||
             </a>
-            <a href="https://pf-gp1-deploy.vercel.app/" target="_blank" rel="noopener noreferrer">
+            {/* <a href="https://pf-gp1-deploy.vercel.app/" target="_blank" rel="noopener noreferrer">
               {" "}
               Deploy
+            </a> */}
+             <a href="https://www.youtube.com/watch?v=cd3zgkjKOWM" target="_blank" rel="noopener noreferrer">
+              {" "}
+              Video (web/App)
             </a>
           </div>
         </div>
-        <div className={s.proy}>
+        {/* <div className={s.proy}>
           <h2 className={s.proyecTittle}>Infusion Store - App</h2>
           <div className={s.enlaces}>
             <a href="http://github.com/alegalus/eCommerce_InfusionStore" target="_blank" rel="noopener noreferrer">
@@ -32,7 +36,7 @@ function Proyects() {
               Video
             </a>
           </div>
-        </div>
+        </div> */}
         <div className={s.proy}>
           <h2 className={s.proyecTittle}>Dogs - Web</h2>
           <div className={s.enlaces}>
